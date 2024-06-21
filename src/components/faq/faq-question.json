@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faq_faq_questions",
+  "info": {
+    "displayName": "FAQ Question",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "FAQAnswer": {
+      "type": "blocks"
+    }
+  }
+}

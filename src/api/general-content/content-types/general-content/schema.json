@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "general_contents",
+  "info": {
+    "singularName": "general-content",
+    "pluralName": "general-contents",
+    "displayName": "General Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Heading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "Content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "blocks"
+    }
+  }
+}
